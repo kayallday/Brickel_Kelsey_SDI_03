@@ -71,5 +71,10 @@ Calculate how much is left over from each whole slice
 //Create a variable for how much is left
 var whatsLeft  = slicesPer % 2;
 
+//Calculate how many "WHOLE" slices Sparky will get to eat
+//Create a variable for this
+var wholeSlice = whatsLeft * peopleNo;
+
+
 
 
