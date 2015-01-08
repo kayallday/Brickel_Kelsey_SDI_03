@@ -27,3 +27,11 @@ var dogAge = aGe * 7;
 //Print the result to the console
 console.log("Sparky is " + aGe + " human year old, which is " + dogAge + " in dog years!");
 
+
+/*
+Slice of Pie part I
+Calculate the number of slices per pizza
+Calculate the number of people at the party
+Calculate the number of pizzas ordered
+
+ */
