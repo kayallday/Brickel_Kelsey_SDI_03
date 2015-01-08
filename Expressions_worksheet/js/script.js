@@ -13,4 +13,10 @@ Sparky's actual age is 4
 test to see if the js is connected
  */
 
-alert("Hello world!");
+//alert("Hello world!");
+//Create a variable for the dog's age
+var aGe = 4;
+
+
+//Print Sparky's age to the console
+console.log("Sparky's age is " + aGe + ".");
