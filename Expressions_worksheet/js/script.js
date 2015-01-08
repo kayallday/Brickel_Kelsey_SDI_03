@@ -20,3 +20,10 @@ var aGe = 4;
 
 //Print Sparky's age to the console
 console.log("Sparky's age is " + aGe + ".");
+
+//Create a variable for Sparky's age in dog years
+var dogAge = aGe * 7;
+
+//Print the result to the console
+console.log("Sparky is " + aGe + " human year old, which is " + dogAge + " in dog years!");
+
