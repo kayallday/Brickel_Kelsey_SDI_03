@@ -54,6 +54,9 @@ var pizzaNo = 10;
 //print the number of pizzas ordered to the console
 console.log("The number of pizzas ordered is " + pizzaNo + ".");
 
+//Calculate the number of slices per person at the party
+//Create a variable for slices per person
+var slicesPer = (pizzaNo * slicesNo)/peopleNo;
 
 
 
