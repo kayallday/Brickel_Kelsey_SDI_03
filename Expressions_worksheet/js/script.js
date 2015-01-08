@@ -45,6 +45,12 @@ console.log("The number of slices per pizza is" + slicesNo + ".");
 //Create a variable for the number of people at the party
 var peopleNo = 32;
 
+//print the number of people at the party to the console
+console.log("The number of people at the party is " + peopleNo + ".");
+
+//Create a variable for number of pizzas ordered
+var pizzaNo = 10;
+
 
 
 
