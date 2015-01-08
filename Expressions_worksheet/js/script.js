@@ -35,3 +35,8 @@ Calculate the number of people at the party
 Calculate the number of pizzas ordered
 
  */
+
+//Create a variable for pizza slices
+var slicesNo = 8;
+
+
