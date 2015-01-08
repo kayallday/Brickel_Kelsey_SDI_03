@@ -62,4 +62,14 @@ var slicesPer = (pizzaNo * slicesNo)/peopleNo;
 console.log("Each person ate " + slicesPer + " slices of pizza at the party");
 
 
+/*
+Slice of Pie part II
+Use the numbers from Slice of Pie part I to calculate how many WHOLE slices Sparky gets
+Calculate how much is left over from each whole slice
+ */
+
+//Create a variable for how much is left
+var whatsLeft  = slicesPer % 2;
+
+
 
