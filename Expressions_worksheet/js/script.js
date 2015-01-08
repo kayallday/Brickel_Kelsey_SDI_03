@@ -58,5 +58,8 @@ console.log("The number of pizzas ordered is " + pizzaNo + ".");
 //Create a variable for slices per person
 var slicesPer = (pizzaNo * slicesNo)/peopleNo;
 
+//print the result to the console
+console.log("Each person ate " + slicesPer + " slices of pizza at the party");
+
 
 
