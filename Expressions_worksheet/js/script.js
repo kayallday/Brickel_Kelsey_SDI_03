@@ -104,5 +104,9 @@ Create a variable for the original price
 
 var priceOrig = 649.99;
 
+//Create a variable for the discount percentage
+var disCount = .40;
+
+
 
 
