@@ -93,6 +93,9 @@ var result = storeTotals[0] + storeTotals[1] + storeTotals[2] + storeTotals[3] +
 //Calculate the average weekly grocery total
 var weekAverage = result/5;
 
+//Print the result to the console
+console.log("You have spent a total of $" + result + " on groceries over 5 weeks. That is an average of $" + weekAverage + " per week.");
+
 
 
 
