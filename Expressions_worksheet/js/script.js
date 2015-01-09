@@ -116,8 +116,10 @@ var taxPercent = .07;
 //Create a variable to calculate the discounted price
 var disPrice = (priceOrig - (priceOrig *disCount));
 
+//Create a variable to calculate the price of the discounted item with tax
+var wtaxResult = disPrice + (disPrice * taxPercent);
 
-
-
+//Print the result to the consult
+console.log("Your " + itEm + " was originally $" + priceOrig + ", but after a 40% discount it is now $" + disPrice + " without tax, and $" + wtaxResult + " with tax.");
 
 
