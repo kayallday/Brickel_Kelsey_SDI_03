@@ -110,6 +110,10 @@ var disCount = .40;
 //Create a variable for the description of the item
 var itEm = "iMac 27in with Retina Display";
 
+//Create a variable for the tax percentage
+var taxPercent = .07;
+
+
 
 
 
