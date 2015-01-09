@@ -79,6 +79,13 @@ var wholeSlice = whatsLeft * peopleNo;
 console.log("Sparky got " + wholeSlice + " slices of pizza!");
 
 
+/*
+Average Shopping Bill
+Use an array of 5 weekly grocery bill totals to calculate average weekly grocery spending
+Create a variable for the grocery Totals
+ */
+
+var storeTotals = [108.38, 156.25, 94.16, 24.02, 195.09];
 
 
 
