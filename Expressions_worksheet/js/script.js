@@ -113,6 +113,10 @@ var itEm = "iMac 27in with Retina Display";
 //Create a variable for the tax percentage
 var taxPercent = .07;
 
+//Create a variable to calculate the discounted price
+var disPrice = (priceOrig - (priceOrig *disCount));
+
+
 
 
 
