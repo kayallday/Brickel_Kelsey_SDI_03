@@ -96,6 +96,13 @@ var weekAverage = result/5;
 //Print the result to the console
 console.log("You have spent a total of $" + result + " on groceries over 5 weeks. That is an average of $" + weekAverage + " per week.");
 
+/*
+Discounts
+Calculate the discounted price for an item
+Create a variable for the original price
+ */
+
+var priceOrig = 649.99;
 
 
 
