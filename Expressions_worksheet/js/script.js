@@ -75,6 +75,11 @@ var whatsLeft  = slicesPer % 2;
 //Create a variable for this
 var wholeSlice = whatsLeft * peopleNo;
 
+//print to the console the number of WHOLE slices Sparky will get to eat
+console.log("Sparky got " + wholeSlice + " slices of pizza!");
+
+
+
 
 
 
