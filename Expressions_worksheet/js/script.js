@@ -102,10 +102,13 @@ Calculate the discounted price for an item
 Create a variable for the original price
  */
 
-var priceOrig = 649.99;
+var priceOrig = 2100.99;
 
 //Create a variable for the discount percentage
 var disCount = .40;
+
+//Create a variable for the description of the item
+var itEm = "iMac 27in with Retina Display";
 
 
 
