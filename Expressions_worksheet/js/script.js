@@ -90,6 +90,9 @@ var storeTotals = [108.38, 156.25, 94.16, 24.02, 195.09];
 //Calculate the total of all the grocery bills
 var result = storeTotals[0] + storeTotals[1] + storeTotals[2] + storeTotals[3] + storeTotals[4];
 
+//Calculate the average weekly grocery total
+var weekAverage = result/5;
+
 
 
 
