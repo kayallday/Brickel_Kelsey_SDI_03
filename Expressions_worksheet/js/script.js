@@ -40,7 +40,7 @@ Calculate the number of pizzas ordered
 var slicesNo = 8;
 
 //print the number of slices per pizza to the console
-console.log("The number of slices per pizza is" + slicesNo + ".");
+console.log("The number of slices per pizza is " + slicesNo + ".");
 
 //Create a variable for the number of people at the party
 var peopleNo = 32;
