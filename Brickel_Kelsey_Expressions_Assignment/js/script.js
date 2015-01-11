@@ -10,7 +10,7 @@ Develop a formula for the task
 
  D = CV/IP
 
- Desirability = Confidence(Value)/Immediacy(Procrastination)
+ Desirability = Confidence(Value)/Immediacy(Sensitivity to Distraction/Delay)
 
  If the desirability is low then most likely you will procrastinate to complete the task
 
@@ -73,6 +73,8 @@ while (realQuick==="" || isNaN(realQuick)){
 //print the result to the console
 console.log(userName + "'s level of needing to complete this task soon is " + realQuick + ".");
 
+//Create a variable for the sensitivity to delay or get distracted
+var disTract = prompt("Last step! On a scale from 1-10, 1 being completely on point and 10 being completely distracted/avoiding, tell us how likely you are to delay or get distracted.");
 
 
 
