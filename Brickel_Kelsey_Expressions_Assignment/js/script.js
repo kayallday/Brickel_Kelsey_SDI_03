@@ -76,6 +76,14 @@ console.log(userName + "'s level of needing to complete this task soon is " + re
 //Create a variable for the sensitivity to delay or get distracted
 var disTract = prompt("Last step! On a scale from 1-10, 1 being completely on point and 10 being completely distracted/avoiding, tell us how likely you are to delay or get distracted.");
 
+//Validate the user enters in a number
+while (disTract==="" || isNaN(disTract)){
+    if (disTract===""){
+        disTract = prompt("Oops! I think you forgot something. \n Please enter in a number.");
+    } else {
+        disTract = prompt("Whoops! We need a numerical character on a scale from 1-10.");
+    }
+}
 
 
 
