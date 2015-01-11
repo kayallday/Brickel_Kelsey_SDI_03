@@ -46,5 +46,15 @@ console.log(userName + "'s confidence of the task is " + conFidence + ".");
 //Create a variable asking the user for the value of completing the task
 var vaLue = prompt("Okay " + userName + ", what is the value of completing this task? \n Please rate it on a 1-10 scale, with 1: not very important, and 10: extremely important.");
 
+//Create a variable to ensure the user enters in a value and that the value is a number
+while (vaLue==="" || isNaN(vaLue)){
+    if (vaLue===""){
+        vaLue = prompt("Oh no! I think you forgot something. Please enter in your response.");
+    } else {
+        vaLue = prompt("Oops! This needs to be a numerical value.");
+    }
+}
+
+
 
 
