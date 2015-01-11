@@ -70,5 +70,10 @@ while (realQuick==="" || isNaN(realQuick)){
     }
 }
 
+//print the result to the console
+console.log(userName + "'s level of needing to complete this task soon is " + realQuick + ".");
+
+
+
 
 
