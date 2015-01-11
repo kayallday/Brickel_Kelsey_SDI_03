@@ -43,5 +43,8 @@ while (conFidence==="" || isNaN(conFidence)) {
 //print the result to the console
 console.log(userName + "'s confidence of the task is " + conFidence + ".");
 
+//Create a variable asking the user for the value of completing the task
+var vaLue = prompt("Okay " + userName + ", what is the value of completing this task? \n Please rate it on a 1-10 scale, with 1: not very important, and 10: extremely important.");
+
 
 
