@@ -40,7 +40,8 @@ while (conFidence==="" || isNaN(conFidence)) {
     }
 }
 
-
+//print the result to the console
+console.log(userName + "'s confidence of the task is " + conFidence + ".");
 
 
 
