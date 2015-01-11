@@ -27,3 +27,7 @@ while (userName==="") {
 //print the user's name to the console
 console.log("The user's name is " + userName + ".");
 
+//Create a variable to ask the user for their confidence about the task
+var conFidence = prompt("Okay " + userName + ", in order to figure out how likely you are to put off this task, we need to know how confident you feel about this task. \n On a scaled of 0-10 (1: not confident at all, and 10: completely confident) enter your confidence level.");
+
+//Validate the variable by ensuring the user enters in a value
