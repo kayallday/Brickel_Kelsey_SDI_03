@@ -23,3 +23,7 @@ var userName = prompt("Hello, what is your name?");
 while (userName==="") {
     userName = prompt("Whoops, we want to be formal, and address you by your name. \n Please enter your name.");
 }
+
+//print the user's name to the console
+console.log("The user's name is " + userName + ".");
+
