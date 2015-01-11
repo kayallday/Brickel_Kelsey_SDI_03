@@ -61,7 +61,14 @@ console.log(userName + "'s value of completing the task is " + vaLue + ".");
 //Create a variable for the user to enter the immediacy of the task
 var realQuick = prompt("Okay, now how soon does this task need to be completed? \n Use a 1-10 scale with 1 being not very soon, and 10 being immediately.");
 
-
+//Validate the user enters in a variable
+while (realQuick==="" || isNaN(realQuick)){
+    if (realQuick===""){
+        realQuick = prompt("Whoops! I think you forgot something. \n Please enter in how soon this task needs to be completed.");
+    } else {
+        realQuick = prompt("Oh no! We need a numerical value on a scale from 1-10");
+    }
+}
 
 
 
