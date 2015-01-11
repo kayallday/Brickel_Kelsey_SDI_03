@@ -55,6 +55,13 @@ while (vaLue==="" || isNaN(vaLue)){
     }
 }
 
+//print the vaLue to the console
+console.log(userName + "'s value of completing the task is " + vaLue + ".");
+
+//Create a variable for the user to enter the immediacy of the task
+var realQuick = prompt("Okay, now how soon does this task need to be completed? \n Use a 1-10 scale with 1 being not very soon, and 10 being immediately.");
+
+
 
 
 
