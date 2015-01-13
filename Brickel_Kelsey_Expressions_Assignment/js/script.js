@@ -85,5 +85,11 @@ while (disTract==="" || isNaN(disTract)){
     }
 }
 
+//print the result to the console
+console.log("The user's sensitivity to get distracted or delay the task is " + disTract + ", on a scale of 1-10.");
 
+//Create a variable for calculating the desirability of the task
+var awSome = (conFidence * vaLue)/(realQuick * disTract);
+
+//print the result to the console
 
