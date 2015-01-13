@@ -92,4 +92,14 @@ console.log("The user's sensitivity to get distracted or delay the task is " + d
 var awSome = (conFidence * vaLue)/(realQuick * disTract);
 
 //print the result to the console
+console.log("The desirability of completing this task is " + awSome + ".");
+
+//Create a loop to tell the user how likely they are to complete the task
+while (awSome >! 5 || awSome <! 4){
+    if (awSome >! 5){
+        awSome = alert(userName + " your desirability to complete this task is relatively high, so the probability that you will procrastinate is generally low.");
+    } else {
+        awSome = alert(userName + " your desirability to complete this task is relatively low, so the probability that you will procrastinate is generally low.");
+    }
+}
 
