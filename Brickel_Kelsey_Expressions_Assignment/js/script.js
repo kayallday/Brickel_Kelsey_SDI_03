@@ -1,6 +1,6 @@
 /*
 Kelsey M. Brickel
-SDI 03
+SDI Section #3
 01-11-15
 Professor Dan Williams
 
