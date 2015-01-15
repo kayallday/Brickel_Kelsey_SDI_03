@@ -16,6 +16,8 @@ Develop a formula for the task
 
 Create a variable for the users name
  */
+
+
 var userName = prompt("Hello, what is your name?");
 
 //Ensure the user enters in a value
@@ -87,6 +89,14 @@ while (disTract==="" || isNaN(disTract)){
 
 //print the result to the console
 console.log("The user's sensitivity to get distracted or delay the task is " + disTract + ", on a scale of 1-10.");
+
+//Create an array to use in the calculation
+//var formArray = (conFidence, vaLue, realQuick, disTract);
+var formArray = [conFidence,vaLue,realQuick, disTract];
+
+
+//print the array to the console
+console.log("The formula to calculate is: (" +formArray[0]+ "x" +formArray[1]+")/("+formArray[2]+ "x"+formArray[3]+")");
 
 //Create a variable for calculating the desirability of the task
 var awSome = (conFidence * vaLue)/(realQuick * disTract);
