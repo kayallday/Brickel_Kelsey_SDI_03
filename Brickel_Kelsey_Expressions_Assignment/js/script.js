@@ -22,7 +22,7 @@ var userName = prompt("Hello, what is your name?");
 
 //Ensure the user enters in a value
 
-while (userName==="") {
+if (userName==="") {
     userName = prompt("Whoops, we want to be formal, and address you by your name. \n Please enter your name.");
 }
 
