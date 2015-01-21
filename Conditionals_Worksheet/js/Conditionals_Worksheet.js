@@ -32,4 +32,8 @@ Create a variable for the user to enter in in degrees
 var degrees = prompt("This is a Fahrenheit and Celsius converter! Please enter in the degrees you want converted.");
 
 //Ensure the user enters in a value and it is a number, using a conditional
-if
+if (degrees==="" || isNaN(degrees)){
+    degrees = prompt("Whoops! I think you forgot something!");
+} else {
+    degrees = prompt("Oh no! We need a numerical value!");
+}
