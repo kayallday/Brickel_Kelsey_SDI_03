@@ -16,3 +16,7 @@ Group 1: Expressions with Conditionals
 */
 //Create a variable for the fuel efficiency of the car
 var fuelEff = prompt("What is the fuel efficiency of you car? Please enter your answer in mpg.");
+//If the variable is left empty put in a prompt(“Please enter a number.”)
+if(fuelEff ===""){
+ prompt("Please enter in a number.");
+}
