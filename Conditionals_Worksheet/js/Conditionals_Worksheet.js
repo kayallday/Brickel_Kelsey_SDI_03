@@ -33,3 +33,10 @@ if(filledUp ===""){
 
 //Create a variable that turns filledUp into a percentage
 var percentFilled = (filledUp / 100);
+
+//Print the result to the console
+console.log(percentFilled);
+
+//Print the result to the console
+console.log("The gas gauge is currently reading " + filledUp + "%.");
+
