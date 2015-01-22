@@ -38,3 +38,12 @@ if (degrees==="" || isNaN(degrees)){
 //Print to the console the degrees
 console.log("The degrees to be converted is : " + degrees + ".");
 
+var type = prompt("Okay is this Celsius or Fahrenheit? Please answer with a 'C' for Celsius or 'F' for Fahrenheit.");
+
+//Create a conditional for whether the degree need to be converted to celsius or fahreheit
+
+if (type = "C"){
+    type = console.log("When converted to Fahrenheit the result is " + (degrees * 9/5) + 32);
+} else {
+    type = console.log("When converted to Celsius the result is " + (degrees - 32) * 5/9);
+}
