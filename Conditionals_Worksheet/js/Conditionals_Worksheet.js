@@ -26,3 +26,10 @@ console.log("The gas efficiency is " + fuelEff + " mpg.");
 //Create a variable for the gas gauge reading in percent
 var filledUp = prompt("How full (using a percentage) is your gas gauge? \n (Please enter in only whole numbers)");
 
+//Validate the variable by ensuring the user enters in a value
+if(filledUp ===""){
+ prompt("Please enter in a percentage for the gauge reading.");
+}
+
+//Create a variable that turns filledUp into a percentage
+var percentFilled = (filledUp / 100);
