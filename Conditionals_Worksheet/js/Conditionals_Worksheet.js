@@ -20,3 +20,9 @@ var fuelEff = prompt("What is the fuel efficiency of you car? Please enter your 
 if(fuelEff ===""){
  prompt("Please enter in a number.");
 }
+//Print the result to the console
+console.log("The gas efficiency is " + fuelEff + " mpg.");
+
+//Create a variable for the gas gauge reading in percent
+var filledUp = prompt("How full (using a percentage) is your gas gauge? \n (Please enter in only whole numbers)");
+
