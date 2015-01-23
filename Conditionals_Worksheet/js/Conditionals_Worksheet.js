@@ -62,3 +62,6 @@ var gasLeft = (percentFilled * carsTank);
 
 //Print the result to the console
 console.log("The car has " + gasLeft + " gallons left in the tank.");
+
+//Create a variable to determine whether the user can make it to the next gas station
+var makeIt = (gasLeft * fuelEff);
