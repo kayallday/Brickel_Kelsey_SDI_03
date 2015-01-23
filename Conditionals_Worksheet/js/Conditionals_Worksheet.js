@@ -174,5 +174,18 @@ if (customerAge <=10 || customerAge >=55){
 //Print the result to the console
 console.log("The user's age is " + customerAge + ".");
 
+//Create variable for movie time
+var finalPrice = prompt("What time do you want to see the movie?");
 
+//Validate variable
+if (finalPrice != 3 || finalPrice != 4 || finalPrice != 5){
+ alert("The ticket price is " + $origPrice + ".");
+} else {
+ alert("The ticket price is " + $discountPrice + ".");
+}
 
+//Print to the console the finalPrice
+console.log("The user's ticket price is " + finalPrice + ".");
+
+//End Group 3
+//End Conditional Worksheet
