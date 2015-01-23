@@ -93,6 +93,7 @@ userHappiness = (happiness > 80)? "You are quite the happy camper! Now that you 
 alert("Your happiness level is at " + happiness + ". " + userHappiness);
 
 
+//End code
 
 
 
