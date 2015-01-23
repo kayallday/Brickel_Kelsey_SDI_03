@@ -76,3 +76,17 @@ if (makeIt >= 200){
  alert("You only have " + gasLeft + " gallons of gas in your tank, better get gas now while you can!");
 }
 
+//Use a conditional to determine if the user can make it to the gas station
+if (makeIt >= 200){
+ alert("Yes you can make it without stopping for gas!");
+} else {
+ alert("You only have " + gasLeft + " gallons of gas in your tank, better get gas now while you can!");
+}
+
+//Finished first Group
+
+/*
+Begin Group 2: Multiple Results
+Check the login
+User needs correct username and
+ */
