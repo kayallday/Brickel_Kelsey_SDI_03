@@ -115,4 +115,10 @@ if (usersName=== "Bruce Wayne"){
  alert("User not found. Try again.");
 }
 
+//Print result to the console
+console.log("The user name is " + usersName + ".");
+
+//Create variable for the user to enter in their personal pasword
+//Only valid password is "I'm Batman"
+var passWord = prompt("Please enter your password.");
 
