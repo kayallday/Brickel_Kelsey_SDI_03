@@ -132,3 +132,26 @@ if (passWord=== "I’m Batman"){
 //print the password to the console
 console.log("The user's password is " + passWord + ".");
 
+//End Group 2
+
+/*
+Group 3: Multiple Conditions
+Movie Ticket Price
+Local theater has ticket price of $12.00 but if you are a senior (55
+and older, or under 10 you get the discounted price of $7.00
+If you are seeing a movie between 3pm-5pm you can also get the discounted price
+Determine which of the two prices the customer is eligible for
+
+Givens:
+ Time of Movie(Assume the whole numbers here)
+ Age of the customer
+
+Result to Print Out:
+ "The ticket price is X"
+
+ */
+//variable for regular price var origPrice
+var origPrice = "$12.00";
+
+//Print the price to the console
+console.log("The regular ticket price is " + $origPrice + ".");
