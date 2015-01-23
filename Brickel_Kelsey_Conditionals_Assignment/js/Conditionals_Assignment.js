@@ -49,5 +49,8 @@ if (existence==="" || isNaN(existence)){
 //print the existence to the console
 console.log("E = " + existence + ".");
 
+//Create a variable for H higher purpose
+var higher = prompt("Now on a scale of 1-10, 1 being not at all and 10 being completely, do you feel you have the support of people close to you, can immerse yourself fully into activities you enjoy?");
+
 
 
