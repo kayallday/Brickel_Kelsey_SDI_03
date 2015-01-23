@@ -154,4 +154,10 @@ Result to Print Out:
 var origPrice = "$12.00";
 
 //Print the price to the console
-console.log("The regular ticket price is " + $origPrice + ".");
+console.log("The regular ticket price is " + origPrice + ".");
+
+//Create a variable for the discounted ticket price
+var discountPrice = "$7.00";
+
+//Print the discount price to the console
+console.log("The discounted ticket price is " + discountPrice + ".");
