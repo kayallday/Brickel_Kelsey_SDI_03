@@ -63,7 +63,34 @@ if (higher===""){
 }
 
 //Calculate using the formula, and incorporate a ternary operator
-var happiness = (postive + (5*existence) + (5*higher))
+var happiness = (postive + (5*existence) + (5*higher));
+
+//print to the console
+console.log("The user's happiness level is " + happiness + ".");
+
+//Ask the user if they're sure they want to know
+var toKnow = prompt("Alright now for the big reveal! Are you sure you're ready? \n Please type 'YES' or 'NO'");
+
+//Use a conditional to validate the variable, if YES, then alert("Alright, click okay to reveal") if NO then alert("Bummer, click x to exit")
+if (toKnow==="") {
+    toKnow = prompt("Whoops, I think you forgot something.");
+} else if(toKnow = "YES"){
+    alert("Alright, click okay to reveal.");
+} else {
+    alert("Bummer, click x to exit.");
+}
+
+/*
+ Use a ternary operator on the premise that
+ happiness  > 80 ? "You are quite the happy camper! Now that you know the general levels you need to achieve happiness you can have a better handle on your mood." :
+ "Your happiness level is a little down in the dumps, what are some areas you think you could improve in to get that happiness meter up?";
+ alert(userHappiness);
+
+Create a new variable to alert the user
+*/
+var userHappiness;
+
+
 
 
 
