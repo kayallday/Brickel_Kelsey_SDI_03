@@ -65,3 +65,14 @@ console.log("The car has " + gasLeft + " gallons left in the tank.");
 
 //Create a variable to determine whether the user can make it to the next gas station
 var makeIt = (gasLeft * fuelEff);
+
+//Print the result to the console
+console.log("The user can make it " + makeIt + " miles before stopping for gas.");
+
+//Validate the variable
+if (makeIt >= 200){
+ alert("Yes you can make it without stopping for gas!");
+} else {
+ alert("You only have " + gasLeft + " gallons of gas in your tank, better get gas now while you can!");
+}
+
