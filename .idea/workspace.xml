@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c12914c1-e4bd-4160-a3b5-4bd3ae1d922c" name="Default" comment="" />
+    <list default="true" id="c12914c1-e4bd-4160-a3b5-4bd3ae1d922c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Brickel_Kelsey_Conditionals_Assignment/js/Conditionals_Assignment.js" afterPath="$PROJECT_DIR$/Brickel_Kelsey_Conditionals_Assignment/js/Conditionals_Assignment.js" />
+    </list>
     <ignored path="Brickel_Kelsey_SDI_03.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,9 +29,11 @@
       <file leaf-file-name="Conditionals_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Brickel_Kelsey_Conditionals_Assignment/js/Conditionals_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16605166" vertical-offset="0" max-vertical-offset="542">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.6918819" vertical-offset="0" max-vertical-offset="542">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +96,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="478" />
-    <option name="y" value="32" />
+    <option name="x" value="456" />
+    <option name="y" value="23" />
     <option name="width" value="935" />
     <option name="height" value="665" />
   </component>
@@ -305,7 +309,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="478" y="32" width="935" height="665" extended-state="0" />
+    <frame x="456" y="23" width="935" height="665" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -552,9 +556,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Brickel_Kelsey_Conditionals_Assignment/js/Conditionals_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16605166" vertical-offset="0" max-vertical-offset="542">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.6918819" vertical-offset="0" max-vertical-offset="542">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
