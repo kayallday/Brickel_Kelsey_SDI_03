@@ -25,7 +25,7 @@ alert("Hello! This is a happiness calculator, it will calculate all the componen
 //Begin with creating a variable for P
 var positive = prompt("Using the scale of 1 - 10, with 1 being not at all and 10 being completely, answer the following: \n Do you feel that you have a positive outlook on life, bounce back quickly, and feel in control of your life?");
 
-//Validate the variable if the prompt is empty "Oh no I think you forgot to tenter in a value
+//Validate the variable if the prompt is empty "Oh no I think you forgot to enter in a value
 if (positive===""){
     positive = prompt("Oh no I think you forgot to enter in a value.");
     //if prompt is not a number then "Rats! We need a numerical value."
@@ -63,7 +63,7 @@ if (higher===""){
 }
 
 //Calculate using the formula, and incorporate a ternary operator
-var happiness = (postive + (5*existence) + (5*higher));
+var happiness = (positive + (5*existence) + (3*higher));
 
 //print to the console
 console.log("The user's happiness level is " + happiness + ".");
@@ -89,6 +89,9 @@ if (toKnow==="") {
 Create a new variable to alert the user
 */
 var userHappiness;
+userHappiness = (happiness > 80)? "You are quite the happy camper! Now that you know the general levels you need to achieve happiness you can have a better handle on your mood." : "Your happiness level is a little down in the dumps, what are some areas you think you could improve in to get the happiness meter up?";
+alert("Your happiness level is at " + happiness + ". " + userHappiness);
+
 
 
 
