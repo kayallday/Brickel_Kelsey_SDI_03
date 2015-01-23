@@ -88,5 +88,31 @@ if (makeIt >= 200){
 /*
 Begin Group 2: Multiple Results
 Check the login
-User needs correct username and
- */
+User needs correct username and password
+Givens:
+ Username entered by user
+ Password entered by user
+ Correct username
+ Correct password
+
+Result to Print Out:
+ "Welcome, (place their username here)!" - if the username and password is correct
+ "User not found. Try again." - if the username does not match
+ "Password does not match our records." if the username matches but the password does not
+
+Create a variable for the user to enter in the username
+
+*/
+
+var usersName = prompt("Please enter your username.");
+
+//Only valid username should be "Bruce Wayne"
+
+//Validate variable
+if (usersName=== "Bruce Wayne"){
+ alert("Thank you, click okay to enter your password.");
+} else {
+ alert("User not found. Try again.");
+}
+
+
