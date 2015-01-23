@@ -122,3 +122,13 @@ console.log("The user name is " + usersName + ".");
 //Only valid password is "I'm Batman"
 var passWord = prompt("Please enter your password.");
 
+//Validate the variable passWord
+if (passWord=== "I’m Batman"){
+ alert("Welcome, " + usersName + "!");
+} else {
+ alert("Password does not match our records.");
+}
+
+//print the password to the console
+console.log("The user's password is " + passWord + ".");
+
