@@ -26,31 +26,45 @@ alert("Hello! This is a happiness calculator, it will calculate all the componen
 var positive = prompt("Using the scale of 1 - 10, with 1 being not at all and 10 being completely, answer the following: \n Do you feel that you have a positive outlook on life, bounce back quickly, and feel in control of your life?");
 
 //Validate the variable if the prompt is empty "Oh no I think you forgot to tenter in a value
-if (positive==="" || isNaN(positive)){
+if (positive===""){
     positive = prompt("Oh no I think you forgot to enter in a value.");
     //if prompt is not a number then "Rats! We need a numerical value."
-} else {
+} else if(isNaN(positive)) {
     positive = prompt("Rats! We need a numerical value.");
+} else {
+    console.log("P = " + positive + ".");
 }
-
-//Print the result to the console
-console.log("P = " + positive + ".");
 
 //Create a variable for E existence
 var existence = prompt("As with the last question, this is also based on a scale of 1-10, 1 being not at all and 10 being very much so, please answer the following: \n Do you believe your basic needs are being met; health financial stability, personal relationships?");
 
 //Validate the variable, if the prompt is left blank then "Whoops you forgot something"
-if (existence==="" || isNaN(existence)){
+if (existence===""){
     existence = prompt("Whoops try that one more time!");
-} else {
+} else if (isNaN(existence)){
     existence = prompt("Oh man, we need a numerical value.");
+} else {
+    console.log("E = " + existence + ".");
 }
 
-//print the existence to the console
-console.log("E = " + existence + ".");
 
 //Create a variable for H higher purpose
 var higher = prompt("Now on a scale of 1-10, 1 being not at all and 10 being completely, do you feel you have the support of people close to you, can immerse yourself fully into activities you enjoy?");
+
+//Validate the variable, if the prompt is left blank then "Oh no! You forgot to enter in a value
+
+if (higher===""){
+    higher = prompt("Oh no! I think you forgot to enter in a value.");
+} else if(isNaN(higher)) {
+    higher = prompt("Whoops! Please enter in a number.");
+} else {
+    //print the variable to the console
+    console.log("H = " + higher + ".");
+}
+
+
+
+
 
 
 
