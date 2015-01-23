@@ -40,3 +40,6 @@ console.log(percentFilled);
 //Print the result to the console
 console.log("The gas gauge is currently reading " + filledUp + "%.");
 
+//Create a variable for the cars tank capacity
+var carsTank = prompt("Okay, now we need to know the capacity of your car's gas tank. \nPlease enter this in gallons.");
+
