@@ -56,3 +56,6 @@ var nextStation = 200;
 
 //Print the distance to the console
 console.log("The closest gas station is " + nextStation + " miles away.");
+
+//Create a variable to find how many miles the tank has left in it vs how many miles need to go
+var gasLeft = (percentFilled * carsTank);
