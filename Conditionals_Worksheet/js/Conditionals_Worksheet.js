@@ -43,3 +43,10 @@ console.log("The gas gauge is currently reading " + filledUp + "%.");
 //Create a variable for the cars tank capacity
 var carsTank = prompt("Okay, now we need to know the capacity of your car's gas tank. \nPlease enter this in gallons.");
 
+//Validate the variable
+if(carsTank ===""){
+ prompt("Please enter in gallons what the capacity of your car's gas tank is.");
+}
+
+//print to the console the capacity of the car's gas tank.
+console.log("The car's gas tank capacity is " + carsTank + " gallons.");
