@@ -161,3 +161,18 @@ var discountPrice = "$7.00";
 
 //Print the discount price to the console
 console.log("The discounted ticket price is " + discountPrice + ".");
+
+//Create a variable for the user to enter in their age
+var customerAge = prompt("Please enter your age.");
+
+if (customerAge <=10 || customerAge >=55){
+ alert("The ticket price is " + discountPrice + ".");
+} else {
+ alert("Click okay to select a movie time.");
+}
+
+//Print the result to the console
+console.log("The user's age is " + customerAge + ".");
+
+
+
