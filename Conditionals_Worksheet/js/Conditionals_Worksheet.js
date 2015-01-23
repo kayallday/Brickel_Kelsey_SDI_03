@@ -53,3 +53,6 @@ console.log("The car's gas tank capacity is " + carsTank + " gallons.");
 
 //Create a variable for the distance to the next gas station
 var nextStation = 200;
+
+//Print the distance to the console
+console.log("The closest gas station is " + nextStation + " miles away.");
