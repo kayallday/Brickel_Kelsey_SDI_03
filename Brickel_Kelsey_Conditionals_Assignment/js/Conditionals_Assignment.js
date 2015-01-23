@@ -46,6 +46,8 @@ if (existence==="" || isNaN(existence)){
     existence = prompt("Oh man, we need a numerical value.");
 }
 
+//print the existence to the console
+console.log("E = " + existence + ".");
 
 
 
