@@ -62,6 +62,8 @@ if (higher===""){
     console.log("H = " + higher + ".");
 }
 
+//Calculate using the formula, and incorporate a ternary operator
+var happiness = (postive + (5*existence) + (5*higher))
 
 
 
