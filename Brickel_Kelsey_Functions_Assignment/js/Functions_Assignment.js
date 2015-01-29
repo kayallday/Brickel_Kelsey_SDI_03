@@ -14,3 +14,7 @@
  (Based on the estimated time the average human spends eating per day which is 67 minutes
      
 */
+ //Ask for the user's name
+ var userName = prompt("Well hi there! What's your name?");
+
+ //Validate the variable for userName
