@@ -48,7 +48,28 @@ while(radius==="" || isNaN(radius))
 //Print the input to the console
 console.log(radius + " is the radius.");
 
+var diameter = radius^2;
+console.log(diameter);
+
+
 var Pi = Math.PI;
+
+var circumference = solveForCircumference(Pi , diameter);
+
+console.log(circumference);
+function solveForCircumference(Pi, radius^2){
+    return P * d;
+}
+
+
+solveForCircumference(Pi, diameter);
+
+
+
+
+
+
+
 
 
 
