@@ -6,5 +6,5 @@
   1/28/2015
   */
 
-
+//Ensure the js is connected
  alert("Hello World");
