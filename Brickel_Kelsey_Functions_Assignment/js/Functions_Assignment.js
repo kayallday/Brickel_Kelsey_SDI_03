@@ -8,3 +8,9 @@
 
 //Ensure the js is connected
  alert("Hello World");
+
+ /*Choose something to calculate
+ How much of your life have you spent eating?
+ (Based on the estimated time the average human spends eating per day which is 67 minutes
+     
+*/
