@@ -43,10 +43,12 @@ while ((userName==="") || !isNaN(userName))
 
  //call the function
 
- minYear(min, days);
+ var total = minYear(min, days);
+ //print the result to the console
+ console.log(total);
 
  //prompt the user for their age
- var age = prompt("Okay " + userName + " how old are you? (In human years please.");
+ var age = prompt("Okay " + userName + " how old are you? (In human years please.)");
  //validate the variable with a while loop
  while ((age==="") || isNaN(age))
  //re-prompt the user to enter in something
@@ -61,11 +63,13 @@ if (age===""){
 
  //Create a function that calculates how much time the user would spend eating
 
- var lifeTimeEat = function(minYear, age){
+ var lifeTimeEat = function(){
   //code to run
-  var howMuch = minYear * age;
- }
- var howMuch = lifeTimeEat(minYear, age);
+  var howMuch = total * age;
+  return howMuch;
+ };
+ var howMuch = lifeTimeEat(total, age);
+
 
  console.log(howMuch);
 
