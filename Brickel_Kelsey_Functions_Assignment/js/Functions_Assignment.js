@@ -45,4 +45,13 @@ while ((userName==="") || !isNaN(userName))
 
  minYear(min, days);
 
- 
+ //prompt the user for their age
+ var age = prompt("Okay " + userName + " how old are you? (In human years please.");
+ //validate the variable with a while loop
+ while ((age==="") || isNaN(age))
+ //re-prompt the user to enter in something
+if (age===""){
+ age = prompt("Please enter something, it will be extremely helpful.");
+} else {
+ age = prompt("Drat! This needs to be a number!");
+}
