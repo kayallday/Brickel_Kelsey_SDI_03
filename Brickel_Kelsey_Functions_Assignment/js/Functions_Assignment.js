@@ -17,4 +17,15 @@
  //Ask for the user's name
  var userName = prompt("Well hi there! What's your name?");
 
- //Validate the variable for userName
+ //Validate the variable for userName using a while loop
+while ((userName==="") || !isNaN(userName))
+ //re-prompt the user for their name
+  if (userName==="") {
+   userName = prompt("Whoops! Did you forget something?");
+} else {
+ userName = prompt("Please enter in only text.");
+ }
+
+ //Print the username to the console
+ console.log("The user's name is " + userName + ".");
+ 
