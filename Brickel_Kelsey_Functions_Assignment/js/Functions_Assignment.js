@@ -55,3 +55,28 @@ if (age===""){
 } else {
  age = prompt("Drat! This needs to be a number!");
 }
+
+ //Print the age to the console
+ console.log(userName +" is " + age + " years old.");
+
+ //Create a function that calculates how much time the user would spend eating
+
+ var lifeTimeEat = function(minYear, age){
+  //code to run
+  var howMuch = minYear * age;
+ }
+ var howMuch = lifeTimeEat(minYear, age);
+
+ console.log(howMuch);
+
+
+ //Verify the user really wants to know how much of their life they spend eating
+ var areYouSure = prompt("Okay it's truth time, are you sure you want to know how much of your life you spend eating? \n On a scale of 1-10 1 being not at all and 10 being absolutely how badly do you want to know?");
+
+ //Validate using a while loop
+ while((areYouSure>=6) || (areYouSure<=5))
+ if (areYouSure>=6){
+  areYouSure = alert("Alright, alright! I'll tell you! You've spent " + howMuch + " minutes of your life eating.");
+ } else {
+  areYouSure = alert("Well I'm going to tell you anyway!! You've spent " + howMuch + " minutes of your life eating.");
+ }
