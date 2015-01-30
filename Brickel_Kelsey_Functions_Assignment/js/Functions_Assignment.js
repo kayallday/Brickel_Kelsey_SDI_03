@@ -28,4 +28,21 @@ while ((userName==="") || !isNaN(userName))
 
  //Print the username to the console
  console.log("The user's name is " + userName + ".");
+
+
+ //Create function for minutes spent a year by the average human
+ //Create variables for minutes, and days in a year
+ var min = 67;
+ var days = 365;
+
+ function minYear(min, days){
+  //code to run
+  var minutes = min * days;
+  return minutes;
+ }
+
+ //call the function
+
+ minYear(min, days);
+
  
